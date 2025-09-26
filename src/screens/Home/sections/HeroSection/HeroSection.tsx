@@ -11,7 +11,7 @@ export const HeroSection = (): JSX.Element => {
         </h1>
 
         <p className="w-full font-body-medium font-[number:var(--body-medium-font-weight)] text-neutraloffwhite text-base sm:text-lg lg:text-[length:var(--body-medium-font-size)] tracking-[var(--body-medium-letter-spacing)] leading-[var(--body-medium-line-height)] [font-style:var(--body-medium-font-style)]">
-          Sou um desenvolvedor apaixonado por entregar soluções que agregam valor real às pessoas. Atuo há quase dois anos no mercado de desenvolvimento low-code, já tendo entregue mais de cinco projetos reais em produção. Nesse período, adquiri experiência sólida em Bubble, FlutterFlow e N8n, além de trabalhar com integrações de APIs, webhooks e soluções de pagamento. Atualmente, estou expandindo minhas stacks para o desenvolvimento back-end e front-end, explorando tecnologias como React e Node.js, o que amplia minha capacidade de criar soluções mais completas e escaláveis.
+          Sou um desenvolvedor apaixonado por entregar soluções que agregam valor real às pessoas. Atuo há quase dois anos no mercado de desenvolvimento low-code, já tendo entregue mais de cinco projetos reais em produção. Nesse período, adquiri experiência sólida em Bubble, FlutterFlow e N8N, além de trabalhar com integrações de APIs, webhooks e soluções de pagamento. Atualmente, estou expandindo minhas stacks para o desenvolvimento back-end e front-end, explorando tecnologias como React e Node.js, o que amplia minha capacidade de criar soluções mais completas e escaláveis.
         </p>
       </div>
 

@@ -66,7 +66,7 @@ export const ProjectDetailsSection = (): JSX.Element => {
 
                 <div className="inline-flex flex-col items-start relative">
                   <a
-                    href="#"
+                    href=""
                     className="w-fit mt-[-1.00px] font-[number:var(--body-medium-font-weight)] text-neutralwhite text-sm sm:text-base lg:text-[length:var(--body-medium-font-size)] leading-[var(--body-medium-line-height)] whitespace-nowrap relative font-body-medium tracking-[var(--body-medium-letter-spacing)] [font-style:var(--body-medium-font-style)] hover:opacity-80 transition-opacity"
                   >
                     resumo
