@@ -130,6 +130,7 @@ export const ProjectDetailsSection = (): JSX.Element => {
           </Button>
         </form>
       </div>
+      <div></div>
     </section>
   );
 };
