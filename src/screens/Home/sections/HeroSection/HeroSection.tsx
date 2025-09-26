@@ -16,14 +16,10 @@ export const HeroSection = (): JSX.Element => {
       </div>
 
       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 w-full sm:w-auto">
-        <Button className="gap-2 sm:gap-3 pl-4 sm:pl-6 pr-1 sm:pr-1.5 py-3 sm:py-5 h-[48px] sm:h-[54px] bg-app-primary hover:bg-app-primary/90 rounded-[100px] text-neutralblack font-misc-button font-[number:var(--misc-button-font-weight)] text-sm sm:text-[length:var(--misc-button-font-size)] leading-[var(--misc-button-line-height)] tracking-[var(--misc-button-letter-spacing)] [font-style:var(--misc-button-font-style)] w-full sm:w-auto justify-center sm:justify-start">
+        <a target="_blank" href="https://wa.me/5562981051333" className="flex items-center justify-center gap-2 sm:gap-3 w-[124px] h-[48px] sm:h-[54px] bg-app-primary hover:bg-app-primary/90 rounded-[100px] text-neutralblack font-misc-button font-[number:var(--misc-button-font-weight)] text-sm sm:text-[length:var(--misc-button-font-size)] leading-[var(--misc-button-line-height)] tracking-[var(--misc-button-letter-spacing)] [font-style:var(--misc-button-font-style)]">
           CONTATO
-          <img
-            className="w-[36px] h-[36px] sm:w-[42px] sm:h-[42px] mt-[-14.00px] mb-[-14.00px]"
-            alt="Circle"
-            src="https://5e23f827b0e7d9f8c7951dd4d0f08c66.cdn.bubble.io/f1757982922110x469299331330554700/degree.png?_gl=1*1nzqf3p*_gcl_au*MTQ4MjMxNTE5NC4xNzUyMDYyNzU1*_ga*MTYzNDIwNjQxMi4xNzM0MzQ5MzMz*_ga_BFPVR2DEE2*czE3NTc5MzI1OTEkbzIxMCRnMSR0MTc1Nzk4MjY4OCRqNjAkbDAkaDA"
-          />
-        </Button>
+          
+        </a>
 
         <div className="flex items-center gap-4">
           <Button

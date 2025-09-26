@@ -2,6 +2,7 @@
 import { Button } from "../../components/ui/button";
 import { Separator } from "../../components/ui/separator";
 import { AboutMeSection } from "./sections/AboutMeSection/AboutMeSection";
+import { ExperienciesSection } from "./sections/ExperienciesSection/ExperienciesSection";
 import { FeaturedProjectsSection } from "./sections/FeaturedProjectsSection/FeaturedProjectsSection";
 
 import { HeroSection } from "./sections/HeroSection/HeroSection";
@@ -53,6 +54,15 @@ export const Home = (): JSX.Element => {
             </Button>
            
           </div>
+        </section>
+        <Separator className="w-full h-px bg-gray-600" />
+         <section className="relative w-full px-4 sm:px-8 lg:px-[108px] py-8 sm:py-12 lg:py-16">
+          <h2 className="font-heading-one font-[number:var(--heading-one-font-weight)] text-neutralwhite text-4xl sm:text-6xl lg:text-[length:var(--heading-one-font-size)] tracking-[var(--heading-one-letter-spacing)] leading-[var(--heading-one-line-height)] [font-style:var(--heading-one-font-style)] mb-6 sm:mb-8">
+            Experiências
+          </h2>
+         
+           <ExperienciesSection/>
+          
         </section>
 
         <Separator className="w-full h-px bg-gray-600 mt-4 sm:mt-6" />
